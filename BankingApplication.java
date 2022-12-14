@@ -38,7 +38,7 @@ import java.util.Scanner;
         }
     }
 
-    //Withdraw Amount and updating
+    //Withdraw Amount and Updating
     public void withdraw() 
     {
         long amount;
@@ -50,17 +50,17 @@ import java.util.Scanner;
             System.out.println("Balance after Withdrawal: " + Balance);
         }
         else{
-            System.out.println("Your Balance is less than " + amount + "   Transaction Failed..!!!!");
+            System.out.println("Your Balance is less than " + amount + "  Transaction Failed..!!!!");
         }
     }
 
-    //display balance
+    //Display balance
     public void balance() 
     {
         System.out.println("Name:" + Name + " " + "Balanced Amount:" + Balance);
     }
 
-    //search account
+    //Search account
     public boolean search(String acct_no) 
     {
         if (AcctNo.equals(acct_no)) 
@@ -178,5 +178,3 @@ public class BankingApplication {
         } while (ch != 6);
     }
 }
-    
-
